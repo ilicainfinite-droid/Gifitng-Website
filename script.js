@@ -21,7 +21,7 @@
 const products = [
     {
         id: 1,                              // Keep unique for each product
-        name: "Lavender Dreams",            // EDIT: Product name
+        name: "Spiral Candle X-Mas",            // EDIT: Product name
         category: "scented",                // EDIT: Must be: scented, decorative, gift-sets, or seasonal
         price: 499,                         // EDIT: Current price
         oldPrice: 699,                      // EDIT: Original price (for sale items) - Remove if not on sale
@@ -424,3 +424,4 @@ document.addEventListener('click', function(event) {
     }
 
 });
+
