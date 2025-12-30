@@ -365,9 +365,8 @@ function orderViaWhatsApp() {
     ======================================== */
     // EDIT: Replace with your WhatsApp number
     // Format: Country code + number (no + sign, no spaces)
-    // Example for India: 919876543210
     // Example for US: 12025551234
-    const phoneNumber = '919876543210';
+    const phoneNumber = '919209839142';
     
     // Build order message
     let message = 'Hello! I would like to order:\n\n';
@@ -423,4 +422,5 @@ document.addEventListener('click', function(event) {
         !cartIcon.contains(event.target)) {
         cartModal.classList.remove('active');
     }
+
 });
